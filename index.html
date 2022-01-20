@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+   
+<head>
         <meta charest="UTF-8" />
         <title>Run Buddy</title>
         <link rel="stylesheet" href="./assets/css/style.css"/>
     
-    </head>
-    <body>
+</head>
+<body>
     <header>
     <h1>
         <a href="/">RUN BUDDY</a>
@@ -15,10 +16,10 @@
         <!-- Unordered list element-->
         <ul>
             <li> 
-                <a href="What-We-do">What We Do</a>
+                <a href="#What-we-do">What we Do</a>
             </li>
             <li>
-                <a href="#what-you-do">What You Do</a>
+                <a href="#What-you-do">What you Do</a>
             </li>
             <li>
                 <a href="#yourtrainers">Your Trainers</a>
@@ -30,17 +31,21 @@
     </nav>
     </header>
 
+    <section class="hero">
     <section>
+        <div class="hero-form">
         <div>
-            <h3>Get Started Today</h3>
+             <h3><b>Get Started Today</h3></b>
             <p>Fill out this form and one of our trainers will schedule a consult</p>
             <form>
+               
                 <label for="name">Enter full name:</label>
-                <input type="text" placeholder="Your Name" name="name" id="name"/>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
                 <label for="email">Enter email address:</label>
-                <input type="email" placeholder="Your Email address" name="email" id="email"/>
+                <input type="email" placeholder="Your Email address" name="email" id="email" class="form-input"/>
                 <label for="phone">Enter a telephone number:</label>
-                <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+            
                 <p>
                     Have you worked out with a trainer before?
                     <input type="radio" name="trainer-confirm" id="trainer-yes"/>
@@ -58,17 +63,42 @@
                     Get running!
                 </button>
             </form>
+           
         </div>
+        </div>
+    
     </section>
-
+    </section>
     <!-- "What we do" section-->
-    <section>
+    <section id="What-we-do">
+
         <h2>What We Do</h2>
+        <p>buthcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trande Blue bottle chillwave you probably haven't heard of themm single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft</p>
     </section>
     
     <!-- "What you do" section-->
-    <section>
+    <section id="What-you-do">
+
         <h2> What you Do</h2>
+        <div>
+            <h3>Step 1: Fill Out the Form Above.</h3>
+            <p>You're already here, so why not?</p>
+        </div>
+
+        <div>
+            <h3>Step 2: Consult with One of Our Trainers.</h3>
+            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+        </div>
+
+        <div>
+            <h3>Step 3: Get Running.</h3>
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+        </div>
+
+        <div>
+            <h3>Step 4: See Results.</h3>
+            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+        </div>
     </section>
 
     <!--"meet the trainers"section -->
@@ -81,13 +111,12 @@
        <h2>Reach Out</h2>
    </section>
    <footer>
-       <h2>❤️ Made with love by Run Buddy.</h2>
-       <div>
-           <a href="#">Read Our Privacy</a><br />
-           &copy; 2019 Run Buddy Inc.
-       </div>
+     <h2>❤️ Made with love by Run Buddy.</h2>
+     <div>
+     <a href="#">Read Our Privacy</a><br />
+     &copy; 2019 Run Buddy Inc.
+    </div>
     </footer>
-    
-    </body>
+ </body>
    
 </html>
